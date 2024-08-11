@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeOffsetSouth", "EyeOffsetSouth\EyeOffsetSouth.csproj", "{451B9681-8241-4F02-B839-1959EDB15CDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{451B9681-8241-4F02-B839-1959EDB15CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451B9681-8241-4F02-B839-1959EDB15CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451B9681-8241-4F02-B839-1959EDB15CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451B9681-8241-4F02-B839-1959EDB15CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74D3A641-C36F-4927-8DD5-8A2055AA7B9C}
+	EndGlobalSection
+EndGlobal
