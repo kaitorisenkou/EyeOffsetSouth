@@ -8,6 +8,8 @@ using Verse;
 
 namespace EyeOffsetSouth {
     public class ModExtension_EyeOffsetSouth : DefModExtension {
-        public Vector3 offset = Vector3.zero;
+        //public Vector3 offset = Vector3.zero;
+        public Vector3 rightOffset = Vector3.zero;
+        public Vector3 leftOffset = Vector3.zero;
     }
 }

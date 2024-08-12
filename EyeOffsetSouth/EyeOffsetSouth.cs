@@ -20,11 +20,16 @@ namespace EyeOffsetSouth {
         }
 
         public static void Patch_CalcAnchorData(Pawn pawn, BodyTypeDef.WoundAnchor anchor, Rot4 pawnRot, ref Vector3 anchorOffset) {
-            if ((anchor.tag == "LeftEye" || anchor.tag == "RightEye") && pawnRot.AsInt==2 && (!ModsConfig.BiotechActive || !pawn.DevelopmentalStage.Juvenile())) {
+            if (pawnRot.AsInt==2 && (!ModsConfig.BiotechActive || !pawn.DevelopmentalStage.Juvenile())) {
                 Log.Message("[EyeOffsetSouth] " + anchorOffset);
                 var modExt = pawn.story.headType.GetModExtension<ModExtension_EyeOffsetSouth>();
                 if (modExt != null) {
-                    anchorOffset += modExt.offset;
+                    if (anchor.tag == "LeftEye") {
+                        anchorOffset += modExt.leftOffset;
+                    }
+                    if(anchor.tag == "RightEye") {
+                        anchorOffset += modExt.rightOffset;
+                    }
                 }
             }
         }
