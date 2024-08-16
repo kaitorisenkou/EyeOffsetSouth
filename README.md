@@ -10,7 +10,8 @@ This library adds a modExtension that works like <eyeOffsetEastWest>, but only w
     <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
     <modExtensions>
       <li Class="EyeOffsetSouth.ModExtension_EyeOffsetSouth">
-        <offset>(0, 0, 1.0)</offset>
+        <rightOffset>(-0.5, 0, 0)</rightOffset>
+        <leftOffset>(0.5, 0, 0)</leftOffset>
       </li>
     </modExtensions>
   </HeadTypeDef>
