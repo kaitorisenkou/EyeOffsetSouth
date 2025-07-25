@@ -1,5 +1,5 @@
 Class library for Rimworld mod.
-This library adds a modExtension that works like <eyeOffsetEastWest>, but only when south direction.
+This library adds a modExtension that works like `<eyeOffsetEastWest>`, but only when south direction.
 ```
   <HeadTypeDef ParentName="AverageBase">
     <defName>Head_Sample_EyeOffsetSouth</defName>
